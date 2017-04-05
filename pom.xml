@@ -17,6 +17,7 @@
         <module>./spring</module>
         <module>./temp</module>
         <module>./netty</module>
+        <module>./std</module>
     </modules>
 
     <dependencyManagement>

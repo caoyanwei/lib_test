@@ -5,6 +5,6 @@ package com.kwk.test.spring.core;
  */
 public class SpringCoreMain {
     public static void main(String[] args) {
-        System.out.println("spring");
+        System.out.println("SpringCoreMain");
     }
 }

@@ -18,6 +18,8 @@
         <module>./temp</module>
         <module>./netty</module>
         <module>./std</module>
+        <module>./guava</module>
+        <module>./spring-boot</module>
     </modules>
 
     <dependencyManagement>

@@ -21,6 +21,7 @@
         <module>./guava</module>
         <module>./spring-boot</module>
         <module>./spark</module>
+        <module>./metrics</module>
     </modules>
 
     <dependencyManagement>

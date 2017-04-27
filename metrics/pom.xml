@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.kwk.test</groupId>
-    <artifactId>std</artifactId>
+    <artifactId>metrics</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -20,13 +20,17 @@
     </properties>
 
     <dependencies>
-
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.6</version>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>3.2.2</version>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>

@@ -6,6 +6,7 @@ package com.kwk.test.std.time;
 
 import org.junit.Test;
 
+import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 import java.time.temporal.TemporalAdjusters;
 
@@ -19,5 +20,9 @@ public class TemporalAdjusterTest {
         LocalDateTime now = LocalDateTime.now();
         LocalDateTime adjustDate = now.with(TemporalAdjusters.lastDayOfMonth());
         System.out.println(adjustDate);
+
+        LocalDateTime next = now.with(TemporalAdjusters.next(DayOfWeek.SATURDAY));
+        System.out.println(next);
+        System.out.println(next.with(TemporalAdjusters.next(DayOfWeek.SATURDAY)));
     }
 }

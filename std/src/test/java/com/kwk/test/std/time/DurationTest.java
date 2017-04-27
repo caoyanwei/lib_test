@@ -7,6 +7,7 @@ package com.kwk.test.std.time;
 import org.junit.Test;
 
 import java.time.Duration;
+import java.time.LocalDateTime;
 
 /**
  * @author yanwei.cyw
@@ -15,6 +16,9 @@ import java.time.Duration;
 public class DurationTest {
     @Test
     public void basicTest() {
-        System.out.println(Duration.ofDays(1).plusHours(2));
+        Duration duration = Duration.ofDays(1).plusHours(2);
+        System.out.println(duration);
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(now.plus(duration));
     }
 }
